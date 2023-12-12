@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "serve": "vue-cli-service",
     "format": "prettier --write src/"
+   
   },
   "dependencies": {
     "pinia": "^2.1.7",
